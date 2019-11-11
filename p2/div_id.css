@@ -1,0 +1,73 @@
+body{
+    width: 90%;
+    background-color: white;
+    margin: 20px auto;
+}
+
+#heading {
+    width: 100%;
+    height: 100px;
+    background-color: darkcyan;
+    text-align: center;
+}
+
+#menu {
+    width: 25%;
+    height: 700px;
+    background-color: darkturquoise;
+    text-align: center;   
+    float: left; 
+}
+
+#section {
+    width: 50%;
+    height: 700px;
+    background-color: rgb(124, 160, 202);
+    text-align: center;
+    float: center;
+    float: left;
+}
+#menu2 {
+    width: 25%;
+    height: 700px;
+    background-color: darkturquoise;
+    text-align: center;   
+    float: right; 
+}
+
+
+a:link{
+    text-align: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#footer{
+    width: 100%;
+    height: 70px;
+    background-color: darkgray;
+    float: left;
+}
+
+#menu nav li{
+    list-style-type: none;
+    margin: 15px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#menu nav a{
+    background-color: darksalmon;
+    padding: 5px;
+}
+
+#menu nav a:hover{
+    background-color: crimson;
+    padding: 5px;
+}
+
+#menu nav ul{
+    padding: 0px;
+}

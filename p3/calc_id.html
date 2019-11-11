@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/calc_id.css">
+</head>
+<body>
+    <div id="calc_container">
+        <h1>OM Calc</h1>
+        <input type="text" id="result" value="0">
+        <table id="panel">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td style="background: red;"><i class="fas fa-angle-double-left"></i></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td style="padding-top: 0px;">.</td>
+                <td>0</td>
+                <td>00</td>
+                <td>*</td>
+            </tr>
+            <tr>
+                    <td style="background: red;">C</td>
+                    <td colspan="2" style="background: green; width: 136px;">0</td>
+                    <td>=</td>
+                </tr>
+        </table>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
