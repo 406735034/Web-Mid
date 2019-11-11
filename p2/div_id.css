@@ -24,15 +24,22 @@ body{
     height: 700px;
     background-color: rgb(124, 160, 202);
     text-align: center;
-    float: center;
+    float: left;
+    
+    }
+
+#section img {
+    width : 40%;
+    margin: 1.66%;
     float: left;
 }
+
 #menu2 {
     width: 25%;
     height: 700px;
     background-color: darkturquoise;
     text-align: center;   
-    float: right; 
+    float: left; 
 }
 
 
